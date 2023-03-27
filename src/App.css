@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #333333;
+}
+
+.productCard {
+  background-color: #EEEEEE;
+  height: 360px;
+  width: '14rem'
+}
+
+.productCardImg {
+  object-fit: cover;
+  height: 150px
+}
+
+.productNotFound {
+  height: 465px
+}
+
+.productModalPriceText {
+  font-size: 20px
+}
+
+.hotProductCarousel {
+  height: 400px;
+}
+
+.hotProductCarouselImg {
+  object-fit: contain;
+  object-position: 50% 30%;
+  height: 400px;
+  opacity: 0.7;
+  background-color: #222222;
+}
+
+.hotProductCarouselText {
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 1.5;
+  text-shadow: 4px 4px 3px rgba(0, 0, 0)
+}
+
+.cartItemImg {
+  object-fit: cover;
+  height: 50px;
+  width: 100px;
+}
+
+label {
+  color: #FFFFFF;
+}
+
+body {
+  background-color: #D69945;
+}
+
+h1 {
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 4;
+}
+
+h3 {
+  color: #888888;
+  text-align: center;
+  line-height: 4;
+}
+
+.pagination {
+  --bs-pagination-color: #444444;
+  border-color: #666666;
+  --bs-pagination-hover-color: #AAAAAA;
+}
+
+.active .page-link{
+  color: white;
+  background: #888888;
+  border-color: #888888;
+}
