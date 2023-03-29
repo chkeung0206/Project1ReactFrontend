@@ -19,7 +19,8 @@ function ProductList(props) {
       setProducts(data['data']);
       setNoOfPages(parseInt(data['no-of-pages']));
     } 
-    fetchData();
+    if (resultsPerPage)
+      fetchData();
   }, [activeCategory, searchKeyword, resultsPerPage, pageNo])
 
   const handleFormSubmit = e => {
