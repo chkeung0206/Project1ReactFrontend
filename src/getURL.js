@@ -1,5 +1,5 @@
 const getURL = () => {
-  return ("https://project1-django-backend.onrender.com")
+  return (process.env.REACT_GET_URL)
 }
 
 export default getURL;
